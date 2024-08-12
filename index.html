@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>organic</title>
+    <link rel="icon" type="png" href="img/logo/HK.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="header_1">
+        <div class="container header_box ">
+            <div class="header_image">
+                <a href="index.html"><img src="img/logo/ORGANIC.png" alt=""></a>
+            </div>
+            <form class="d-flex" >
+                <div class="InputContainerSearch">
+                    <input placeholder="Search.." id="input" class="inputSearch" name="text" type="text">
+                </div>
+            </form>
+            <div class="row headerUser_1">
+                <ul class="d-flex my-3 list-unstyled " >
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link btnUser" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tài khoản <i class="fa-solid fa-user ps-1" style="color: #42855b;"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                        <li><a class="dropdown-item" href="register.html">Đăng ký</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="btnCart">
+                            <a class="nav-link active" href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #42855b;"></i></a>
+                        </button>
+                        
+                    </li>
+                </ul> 
+                
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg nav_haeder2" >
+        <div class="container">
+            <button class="navbar-toggler text-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarNav" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0" data-aos="fade-right">
+                    <li class="nav-item ">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Danh mục
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#">Action</a></li>
+                        <li><a class="dropdown-item " href="#">Another action</a></li>
+                        
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Bài viết</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+                <div class="row headerUser_2">
+                    <ul class="d-flex my-3 list-unstyled " >
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link btnUser" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tài khoản <i class="fa-solid fa-user ps-1" style="color: #42855b;"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="register.html">Đăng ký</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-1">
+                            <button class="btnCart">
+                                <a class="nav-link active" href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #42855b;"></i></a>
+                            </button>
+                            
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" data-aos="zoom-out-down">
+                <div class="carousel-item active">
+                    <img src="img/banner4.png" class="d-block w-100 imageBanner " alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/banner3.png" class="d-block w-100 imageBanner " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="new ">
+        <div class="container ">
+            <div class="row text-center " data-aos="fade-right">
+                <div class="title">
+                    <h2 class="py-3 my-5 title_h2">DANH MỤC ORGANIC</h2>     
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 " >
+                    <a href="#" class="text-decoration-none textCategory ">
+                        <img src="img/logo/logoFruit.png" class="img-new animaCate" alt="">
+                        <h6>Trái cây</h6>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 " >
+                    <a href="#" class="text-decoration-none textCategory">
+                        <img src="img/logo/logoVeget.png" class="img-new animaCate" alt="">
+                        <h6>Rau củ quả</h6>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 " >
+                    <a href="#" class="text-decoration-none textCategory">
+                        <img src="img/logo/logoCa.png" class="img-new animaCate" alt="">
+                        <h6>Cá biển</h6>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 " >
+                    <a href="#" class="text-decoration-none textCategory">
+                        <img src="img/logo/logoThit.png" class="img-new animaCate" alt="">
+                        <h6>Thịt</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container ">
+            <div class="row text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="title">
+                    <h2 class="py-3 my-5 title_h2">SẢN PHẨM MỚI</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/cam_4.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/carot2.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/ca-chua.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/cam_4.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/carot2.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative  px-3">
+                    <div class="cardhover">
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/ca-chua.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #f0efef;">
+        <div class="container mt-5">
+            <div class="row py-5">
+                <div class="col-sm-6 py-3">
+                    <img src="img/slide1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-6 py-3" >
+                    <img src="img/slide2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="product" >
+        <div class="container">
+            <div class="row text-center " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="title">
+                    <h2 class="py-3 my-5 title_h2">SẢN PHẨM GIẢM GIÁ</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6  position-relative px-3">
+                    <div class="cardhover">
+                        <div class="productSale"><p>100%</p></div>
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6  position-relative px-3">
+                    <div class="cardhover">
+                        <div class="productSale"><p>100%</p></div>
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6  position-relative px-3">
+                    <div class="cardhover">
+                        <div class="productSale"><p>100%</p></div>
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6  position-relative px-3">
+                    <div class="cardhover">
+                        <div class="productSale"><p>100%</p></div>
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="card border-0 rounded-0  cardImg ">
+            <img src="./img/banneritem.png" class="card-img-top" alt="...">
+            <div class="card-img-overlay bg-dark  bg-opacity-25">
+                <div class="col-md-7 text_imgfluid">
+                    <h1 class="card-title text-black">Organic thiên nhiên tươi xanh</h1>
+                    <p class="text-black">
+                        Tại đây, chúng tôi không chỉ chú trọng đến việc cung cấp những sản phẩm chất lượng cao mà còn tôn trọng và bảo vệ môi trường. Tất cả những gì chúng tôi làm đều được thực hiện một cách tự nhiên và bền vững, từ quy trình chăm sóc cây trồng cho đến việc thu hoạch và chế biến sản phẩm.
+                    </p>
+                    <button class="btn btn-success btn_imgfluid">
+                        <span>Xem nhiều sản phẩm hơn <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="product">
+        <div class="container ">
+            <div class="row text-center"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="title">
+                    <h2 class="py-3 my-5 title_h2">SẢN PHẨM NHIỀU LƯỢT XEM</h2>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative px-3">
+                    <div class="cardhover">
+                    
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span> <br>
+                            <span><strong>(200)</strong> Lượt xem</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative px-3">
+                    <div class="cardhover">
+                    
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span> <br>
+                            <span><strong>(200)</strong> Lượt xem</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative px-3">
+                    <div class="cardhover">
+                    
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span> <br>
+                            <span><strong>(200)</strong> Lượt xem</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 position-relative px-3">
+                    <div class="cardhover">
+                    
+                        <div class="card rounded-0 border-0 cardhover2">
+                            <img src="img/traicay/khoai-lang-tim.png" class="card-img-top" alt="...">
+                        </div>
+                        <h5 class="card-title">Khoai lang tím</h5>
+                        <p class="card-text py-1">
+                            <span class="text-decoration-line-through priceSale">20.000</span>
+                            <span class="price">15.000đ</span> <br>
+                            <span><strong>(200)</strong> Lượt xem</span>
+                        </p>
+                        <div class="hoverAddcart">
+                            <button class="submitaddtocart" type="submit"> Thêm giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="title">
+                    <h2 class=" py-3 my-5 title_h2">BÀI VIẾT </h2>    
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card mb-3 border-0 cardBlog">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="img/blog/baiviet-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bài viết</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">01-07-2024</small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card mb-3 border-0 cardBlog">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="img/blog/baiviet-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bài viết</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">01-07-2024</small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card mb-3 border-0 cardBlog">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="img/blog/baiviet-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bài viết</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">01-07-2024</small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card mb-3 border-0 cardBlog">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="img/blog/baiviet-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bài viết</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">01-07-2024</small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+         
+            <div class="col mb-3 px-3">
+                <img src="img/logo/ORGANIC.png" class="imgfluidFooter">
+            </div>
+        
+            <div class="col mb-3 px-5">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        
+            <div class="col mb-3 px-5">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        
+            <div class="col mb-3 px-5">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        </footer>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© Website thực phẩm Organic</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
